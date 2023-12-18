@@ -32,7 +32,8 @@ namespace myjinxin
       
         public int RectangleRotation(int a, int b)
         {
-            return CalcFullCellsNumber(a) * CalcFullCellsNumber(b) + CalcHalfCellsNumber(a) * CalcHalfCellsNumber(b);
+            return CalcFullCellsNumber(a) * CalcFullCellsNumber(b) +
+                CalcHalfCellsNumber(a) * CalcHalfCellsNumber(b);
         }
 
         public int CalcFullCellsNumber(int n)
